@@ -38,7 +38,7 @@ namespace StarterAssets
 		[Tooltip("The radius of the grounded check. Should match the radius of the CharacterController")]
 		public float GroundedRadius = 0.5f;
 		[Tooltip("What layers the character uses as ground")]
-		public LayerMask GroundLayers;
+		public LayerMask TrespoloLayers;
 		public LayerMask EarthLayer;
 		public bool EarthCheck;
 
@@ -138,7 +138,7 @@ namespace StarterAssets
 		{
 			// set sphere position, with offset
 			Vector3 spherePosition = new Vector3(transform.position.x, transform.position.y - GroundedOffset, transform.position.z);
-			Grounded = Physics.CheckSphere(spherePosition, GroundedRadius, GroundLayers, QueryTriggerInteraction.Ignore);
+			Grounded = Physics.CheckSphere(spherePosition, GroundedRadius, TrespoloLayers, QueryTriggerInteraction.Ignore);
 			EarthCheck = Physics.CheckSphere(spherePosition, GroundedRadius, EarthLayer, QueryTriggerInteraction.Ignore);
 		}
 

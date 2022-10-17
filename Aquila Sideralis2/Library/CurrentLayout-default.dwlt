@@ -19,9 +19,9 @@ MonoBehaviour:
     width: 1920
     height: 997
   m_ShowMode: 4
-  m_Title: Scene
+  m_Title: Game
   m_RootView: {fileID: 6}
-  m_MinSize: {x: 875, y: 542}
+  m_MinSize: {x: 875, y: 300}
   m_MaxSize: {x: 10000, y: 10000}
   m_Maximized: 1
 --- !u!114 &2
@@ -45,10 +45,10 @@ MonoBehaviour:
     y: 30
     width: 1920
     height: 947
-  m_MinSize: {x: 678, y: 492}
+  m_MinSize: {x: 679, y: 492}
   m_MaxSize: {x: 14002, y: 14042}
   vertical: 0
-  controlID: 61
+  controlID: 91
 --- !u!114 &3
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -68,8 +68,8 @@ MonoBehaviour:
     y: 0
     width: 423
     height: 947
-  m_MinSize: {x: 275, y: 50}
-  m_MaxSize: {x: 4000, y: 4000}
+  m_MinSize: {x: 276, y: 71}
+  m_MaxSize: {x: 4001, y: 4021}
   m_ActualView: {fileID: 15}
   m_Panes:
   - {fileID: 15}
@@ -95,8 +95,8 @@ MonoBehaviour:
     y: 0
     width: 280
     height: 676
-  m_MinSize: {x: 200, y: 200}
-  m_MaxSize: {x: 4000, y: 4000}
+  m_MinSize: {x: 201, y: 221}
+  m_MaxSize: {x: 4001, y: 4021}
   m_ActualView: {fileID: 16}
   m_Panes:
   - {fileID: 16}
@@ -224,10 +224,10 @@ MonoBehaviour:
     y: 0
     width: 1497
     height: 947
-  m_MinSize: {x: 402, y: 492}
+  m_MinSize: {x: 403, y: 492}
   m_MaxSize: {x: 10001, y: 14042}
   vertical: 1
-  controlID: 17
+  controlID: 92
 --- !u!114 &10
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -249,10 +249,10 @@ MonoBehaviour:
     y: 0
     width: 1497
     height: 676
-  m_MinSize: {x: 402, y: 221}
-  m_MaxSize: {x: 8002, y: 4021}
+  m_MinSize: {x: 403, y: 221}
+  m_MaxSize: {x: 8003, y: 4021}
   vertical: 0
-  controlID: 87
+  controlID: 93
 --- !u!114 &11
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -369,22 +369,22 @@ MonoBehaviour:
     m_SkipHidden: 0
     m_SearchArea: 1
     m_Folders:
-    - Assets/NavMesh/NavMesh-Tutorial-master/NavMesh Example Project/Assets/NavMeshComponents/Scripts
+    - Assets/Scripts
     m_Globs: []
     m_OriginalText: 
   m_ViewMode: 1
   m_StartGridSize: 64
   m_LastFolders:
-  - Assets/NavMesh/NavMesh-Tutorial-master/NavMesh Example Project/Assets/NavMeshComponents/Scripts
+  - Assets/Scripts
   m_LastFoldersGridSize: -1
   m_LastProjectPath: D:\NABA Archive\NABA\3\3.1\GD2\Aquila\Aquila\Aquila Sideralis2
   m_LockTracker:
     m_IsLocked: 0
   m_FolderTreeState:
-    scrollPos: {x: 0, y: 218}
-    m_SelectedIDs: 0c610000
-    m_LastClickedID: 24844
-    m_ExpandedIDs: 000000001a5200001c5200002052000082600000e2600000f8600000fa6000000a61000000ca9a3b
+    scrollPos: {x: 0, y: 298}
+    m_SelectedIDs: 7a520000
+    m_LastClickedID: 21114
+    m_ExpandedIDs: 000000005452000056520000585200005a5200005c5200005e520000605200006852000000ca9a3b
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -412,7 +412,7 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: 
     m_LastClickedID: 0
-    m_ExpandedIDs: 000000001a5200001c520000
+    m_ExpandedIDs: 000000005452000056520000585200005a5200005c5200005e52000060520000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -500,7 +500,7 @@ MonoBehaviour:
     m_ControlHash: -371814159
     m_PrefName: Preview_InspectorPreview
   m_LastInspectedObjectInstanceID: -1
-  m_LastVerticalScrollValue: 0
+  m_LastVerticalScrollValue: 360
   m_GlobalObjectId: 
   m_LockTracker:
     m_IsLocked: 0
@@ -533,9 +533,9 @@ MonoBehaviour:
   m_SceneHierarchy:
     m_TreeViewState:
       scrollPos: {x: 0, y: 0}
-      m_SelectedIDs: 6cc0ffff
-      m_LastClickedID: -16276
-      m_ExpandedIDs: 20faffff2afaffff6cfbffff7e4c0000
+      m_SelectedIDs: 00f8ffff
+      m_LastClickedID: -2048
+      m_ExpandedIDs: 20faffff6cfbffffb84c0000ee4c0000
       m_RenameOverlay:
         m_UserAcceptedRename: 0
         m_Name: 
@@ -595,9 +595,9 @@ MonoBehaviour:
   m_PlayAudio: 0
   m_AudioPlay: 0
   m_Position:
-    m_Target: {x: 19.497036, y: 16.290718, z: 28.47517}
+    m_Target: {x: 19.141712, y: 16.764685, z: 27.555647}
     speed: 2
-    m_Value: {x: 19.497036, y: 16.290718, z: 28.47517}
+    m_Value: {x: 19.141712, y: 16.764685, z: 27.555647}
   m_RenderMode: 0
   m_CameraMode:
     drawMode: 0
@@ -644,9 +644,9 @@ MonoBehaviour:
     m_GridAxis: 1
     m_gridOpacity: 0.5
   m_Rotation:
-    m_Target: {x: 0.28535378, y: -0.643886, z: 0.28202826, w: 0.65159327}
+    m_Target: {x: 0.21397346, y: -0.7338614, z: 0.2677401, w: 0.5866129}
     speed: 2
-    m_Value: {x: 0.28491193, y: -0.64482087, z: 0.28243765, w: 0.6505845}
+    m_Value: {x: 0.21395884, y: -0.73381126, z: 0.2677218, w: 0.5865728}
   m_Size:
     m_Target: 2.6027827
     speed: 2
